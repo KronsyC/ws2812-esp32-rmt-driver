@@ -12,11 +12,9 @@ repository = "https://github.com/cat-in-136/ws2812-esp32-rmt-smart-leds"
 edition = "2021"
 
 [features]
-default = ["smart-leds-trait", "embedded-graphics-core"]
-unstable = []
 
 [dependencies]
-smart-leds-trait = { version = "0.2", optional = true }
+smart-leds-trait = { version = "0.3", optional = true }
 embedded-graphics-core = { version = "0.4", optional = true }
 thiserror = "1.0.57"
 
